@@ -1,0 +1,12 @@
+LEASE|20241030|Sarah Kim|sarah.kim@example.com|101260|2023|McLaren|720S|Supercar|Orange|800|3500000.00|1750000.00|80000.00|1500.00|1000.00
+SALE|20241030|Jacob Lockhart|procoder165@gmail.com|101257|2022|Pagani|Huayra|Hypercar|Red|1000|3050000.00|152500.00|100.00|495.00|0.00|YES|11344.29
+LEASE|20241031|Mark Johnson|mark.j@example.com|101259|2024|Lamborghini|Huracán|Supercar|Yellow|610|2500000.00|1250000.00|90000.00|2000.00|1500.00
+SALE|20241030|Olivia Brown|olivia.brown@example.com|101262|2023|Porsche|918 Spyder|Hybrid|Green|887|1900000.00|95000.00|70.00|500.00|0.00|NO|0.00
+SALE|20241029|Emily Carter|emily.carter@example.com|101258|2023|Ferrari|SF90 Stradale|Supercar|Blue|750|1200000.00|60000.00|50.00|486.00|0.00|YES|8500.00
+SALE|20241028|James Lee|james.lee@example.com|101261|2022|Bugatti|Chiron|Hypercar|Black|1500|3000000.00|    150000.00|100.00|490.00|0.00|YES|11000.00
+LEASE|20241029|Emily Carter|emily.carter@example.com|101258|2023|Ferrari|SF90 Stradale|Supercar|Blue|750|1200000.00|600000.00|50000.00|1000.00|500.00
+LEASE|20241030|Jacob Lockhart|procoder165@gmail.com|101257|2022|Pagani|Huayra|Hypercar|Red|1000|3050000.00|    1525000.00|213500.00|0.00|0.00
+SALE|20241031|Mark Johnson|mark.j@example.com|101259|2024|Lamborghini|Huracán|Supercar|Yellow|610|2500000.00|125000.00|90.00| 630.00|0.00|NO|0.00
+LEASE|20241028|James Lee|james.lee@example.com|101261|2022|Bugatti|Chiron|Hypercar|Black|1500|3000000.00|1500000.00|100000.00|2500.00|1200.00
+LEASE|20241030|Olivia Brown|olivia.brown@example.com|101262|2023|Porsche|918 Spyder|Hybrid|Green|887|1900000.00|950000.00|70000.00|3000.00|2500.00SALE|20241121|Jacob Lockhart|procoder165@gmail.com|101240|2009|Toyota|Corolla|Car|Silver|18900|5000.00|250.00|100.00|295.00|0.00|NO|0.00
+

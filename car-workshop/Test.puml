@@ -1,0 +1,58 @@
+@startuml
+class com.pluralsight.contract.SalesContract {
+# double salesTaxAmount
+# double recordingFee
+# double processingFee
+# boolean isFinancing
++ double getSalesTaxAmount()
++ double getRecordingFee()
++ double getProcessingFee()
++ boolean isFinancing()
++ double getTotalPrice()
++ double getMonthlyPayment()
++ String toString()
+}
+
+
+class com.pluralsight.contract.ContractFileManager {
++ void saveToFile(String)
++ void readFromFile()
+}
+
+class com.pluralsight.contract.LeaseContract {
+# double expectedEndingValue
+# double leaseFee
++ double getExpectedEndingValue()
++ double getLeaseFee()
++ double getMonthlyPayment()
++ double getTotalPrice()
++ String toString()
+}
+
+
+class com.pluralsight.contract.AdminUserInterface {
+}w
+abstract class com.pluralsight.contract.Contract {
+# String date
+# String customerName
+# String customerEmail
+# Vehicle vehicleSold
+# double totalPrice
+# double monthlyPayment
++ {abstract}double getTotalPrice()
++ {abstract}double getMonthlyPayment()
+}
+
+
+class com.pluralsight.contract.ContractDataManager {
+~ ArrayList<Contract> contracts
++ void saveContract(Contract)
++ void addContract(Contract)
+}
+
+
+
+
+com.pluralsight.contract.Contract <|-- com.pluralsight.contract.SalesContract
+com.pluralsight.contract.Contract <|-- com.pluralsight.contract.LeaseContract
+@enduml
